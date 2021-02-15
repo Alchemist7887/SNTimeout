@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="change_request" label="test" max_length="40" name="x_487188_test_test" sizeclass="5" type="collection">
+        <element label="ref test" max_length="32" name="ref_test" reference="change_request" type="reference"/>
+        <element label="ref test 2" max_length="10000" name="ref_test_2" reference="alm_asset" type="glide_list"/>
+    </element>
+</database>
